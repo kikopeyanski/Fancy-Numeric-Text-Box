@@ -22,7 +22,7 @@ class StepInputField extends Component {
 }
 
 StepInputField.propTypes = {
-  step: PropTypes.string,
+  step: PropTypes.number,
   onStepChange: PropTypes.func
 };
 

@@ -3,7 +3,7 @@ import StepInputField from "../Components/StepInputField";
 
 class StepInput extends Component {
     handleStepChange = (newStep)=>{
-        this.props.onStepChange(newStep)
+        return this.props.onStepChange(newStep)
     };
 
     render() {

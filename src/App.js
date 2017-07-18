@@ -14,7 +14,6 @@ let unsubscribe = store.subscribe(() => {
     console.log(store.getState());
 });
 
-
 class App extends Component {
     render() {
         return (
