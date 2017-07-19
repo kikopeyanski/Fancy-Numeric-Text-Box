@@ -8,7 +8,7 @@ import ResultChange from './ResultChange';
 import {toJS} from '../utils/to-js';
 
 
-class NumericTextBox extends Component {
+export class NumericTextBox extends Component {
     render() {
         return (
             <div className="wrapper">
@@ -26,6 +26,11 @@ class NumericTextBox extends Component {
     }
 }
 
+NumericTextBox.defaultProps = {
+    step: 1,
+    result: 0
+};
+
 NumericTextBox.propTypes = {
     step: PropTypes.number,
     result: PropTypes.number,
@@ -34,14 +39,14 @@ NumericTextBox.propTypes = {
     increaseResult: PropTypes.func
 };
 
-const mapStateToProps = (state) => {
+export const mapStateToProps = (state) => {
     return {
         step: state.get('step'),
         result: state.get('result')
     };
 };
 
-const mapDispatchToProps = (dispatch) => {
+export const mapDispatchToProps = (dispatch) => {
     return {
         onStepChange: (val) => {
             dispatch(changeStep(val));

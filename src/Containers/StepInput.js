@@ -11,7 +11,7 @@ class StepInput extends Component {
         return (
             <div className="step-input-wrapper">
                 <h1>{this.props.step}</h1>
-                <StepInputField onStepChange={this.handleStepChange}/>
+                <StepInputField step={this.props.step} onStepChange={this.handleStepChange}/>
             </div>
         );
     }

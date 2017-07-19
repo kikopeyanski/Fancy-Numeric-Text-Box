@@ -1,6 +1,6 @@
-import React from 'react'
-import {mount, shallow} from 'enzyme'
-import StepInputField from '../Components/StepInputField'
+import React from 'react';
+import {mount} from 'enzyme';
+import StepInputField from '../Components/StepInputField';
 
 //Initial setup of enzyme wrapper
 function setup() {
@@ -14,7 +14,7 @@ function setup() {
     return {
         props,
         wrapper
-    }
+    };
 }
 
 
@@ -38,7 +38,7 @@ describe('StepInputField component', () => {
     });
     test('should call handleSteInputChange when input is changed', () => {
         //Arrange
-        const {wrapper, props} = setup();
+        const {wrapper} = setup();
         const input = wrapper.find('input');
         const instance = wrapper.instance();
 

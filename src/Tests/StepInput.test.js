@@ -1,6 +1,6 @@
-import {mount} from 'enzyme'
-import  React from "react";
-import StepInput from "../Containers/StepInput";
+import {mount} from 'enzyme';
+import  React from 'react';
+import StepInput from '../Containers/StepInput';
 
 //Initial setup of enzyme wrapper
 function setup() {
@@ -14,9 +14,9 @@ function setup() {
     return {
         props,
         wrapper
-    }
-
+    };
 }
+
 describe('StepInput container', () => {
     test('should render a h1 and child component', () => {
         //Arrange
@@ -50,10 +50,9 @@ describe('StepInput container', () => {
         const expectedNumber = 42;
 
         //Act
-        let result = wrapper.instance().handleStepChange(expectedNumber);
+        const result = wrapper.instance().handleStepChange(expectedNumber);
 
         //Assert
         expect(result).toEqual(expectedNumber);
-
-    })
+    });
 });
