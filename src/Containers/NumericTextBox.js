@@ -1,8 +1,11 @@
-import React, {Component, PropTypes} from 'react';
+/* eslint-disable react/require-default-props */
+import React, {Component} from 'react';
+import PropTypes  from 'prop-types';
 import {connect} from 'react-redux';
 import StepInput from './StepInput';
-import {changeStep, decrease, increase} from "../actions";
-import ResultChange from "./ResultChange";
+import {changeStep, decrease, increase} from '../actions';
+import ResultChange from './ResultChange';
+import {toJS} from '../utils/to-js';
 
 
 class NumericTextBox extends Component {
@@ -10,21 +13,31 @@ class NumericTextBox extends Component {
         return (
             <div className="wrapper">
                 <StepInput step={this.props.step}
-                           onStepChange={this.props.onStepChange}/>
+                           onStepChange={this.props.onStepChange}
+                />
                 <ResultChange
                     step={this.props.step}
                     result={this.props.result}
                     decreaseResult={this.props.decreaseResult}
-                    increaseResult={this.props.increaseResult}/>
+                    increaseResult={this.props.increaseResult}
+                />
             </div>
-        )
+        );
     }
 }
 
+NumericTextBox.propTypes = {
+    step: PropTypes.number,
+    result: PropTypes.number,
+    onStepChange: PropTypes.func,
+    decreaseResult: PropTypes.func,
+    increaseResult: PropTypes.func
+};
+
 const mapStateToProps = (state) => {
     return {
-        step: state.step,
-        result: state.result
+        step: state.get('step'),
+        result: state.get('result')
     };
 };
 
@@ -34,13 +47,12 @@ const mapDispatchToProps = (dispatch) => {
             dispatch(changeStep(val));
         },
         decreaseResult: (val) => {
-            dispatch(decrease(val))
+            dispatch(decrease(val));
         },
         increaseResult: (val) => {
-            dispatch(increase(val))
+            dispatch(increase(val));
         }
     };
 };
 
-NumericTextBox = connect(mapStateToProps, mapDispatchToProps)(NumericTextBox);
-export default NumericTextBox;
+export default connect(mapStateToProps, mapDispatchToProps)(toJS(NumericTextBox));
