@@ -5,6 +5,7 @@ export const INCREASE = 'INCREASE';
 
 export const CHANGE_MAX = 'CHANGE_MAX';
 export const CHANGE_MIN = 'CHANGE_MIN';
+export const TOGGLE_LIMITER = 'TOGGLE_LIMITER';
 
 
 export function changeStep(val) {
@@ -38,5 +39,11 @@ export function changeMinLimiter(val) {
     return {
         type: CHANGE_MIN,
         min: val
+    };
+}
+export function toggleLimiter(val) {
+    return {
+        type: TOGGLE_LIMITER,
+        active: val
     };
 }

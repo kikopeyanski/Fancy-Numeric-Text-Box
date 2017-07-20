@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux-immutable';
 import {DECREASE, INCREASE, CHANGE_STEP} from '../actions';
-import {CHANGE_MIN, CHANGE_MAX} from '../actions';
+import {CHANGE_MIN, CHANGE_MAX,TOGGLE_LIMITER} from '../actions';
 
 
 export function step(state = 1, action) {
@@ -29,6 +29,8 @@ export function limiter(state = {}, action) {
             return state.setIn(['max'], action.max * 1);
         case CHANGE_MIN:
             return state.setIn(['min'], action.min * 1);
+        case TOGGLE_LIMITER:
+            return state.setIn(['active'], action.active);
         default:
             return state;
     }

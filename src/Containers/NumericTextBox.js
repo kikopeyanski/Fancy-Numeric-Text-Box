@@ -36,7 +36,7 @@ NumericTextBox.propTypes = {
     }),
     onStepChange: PropTypes.func,
     decreaseResult: PropTypes.func,
-    increaseResult: PropTypes.func
+    increaseResult: PropTypes.func,
 };
 
 export const mapStateToProps = (state) => {

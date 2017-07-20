@@ -13,6 +13,7 @@ const initialState = {
     step: 1,
     result: 0,
     limiter: {
+        active: false,
         min: 0,
         max: 3267
     }
