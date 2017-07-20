@@ -4,7 +4,11 @@ import StepInputField from '../Components/StepInputField';
 
 class StepInput extends Component {
     handleStepChange = (newStep) => {
-        return this.props.onStepChange(newStep);
+        if (this.props.limiter.min <= newStep
+            && newStep <= this.props.limiter.max) {
+            return this.props.onStepChange(newStep);
+        }
+        return this.props.onStepChange(this.props.step);
     };
 
     render() {
@@ -19,7 +23,11 @@ class StepInput extends Component {
 
 StepInput.propTypes = {
     step: PropTypes.number.isRequired,
-    onStepChange: PropTypes.func.isRequired
+    onStepChange: PropTypes.func.isRequired,
+    limiter: PropTypes.shape({
+        min: PropTypes.number,
+        max: PropTypes.number
+    }).isRequired,
 };
 
 export default StepInput;

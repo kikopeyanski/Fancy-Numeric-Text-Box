@@ -7,13 +7,20 @@ import {createStore} from 'redux';
 import reducers from './reducers';
 import {Provider} from 'react-redux';
 import {fromJS} from 'immutable';
+import Limiter from './Containers/Limiter';
 
-const initialState = {step: 1, result: 0};
+const initialState = {
+    step: 1,
+    result: 0,
+    limiter: {
+        min: 0,
+        max: 3267
+    }
+};
 
 const immutableInitialState = fromJS(initialState);
 
 const store = createStore(reducers, immutableInitialState);
-
 
 store.subscribe(() => {
     console.log(store.getState());
@@ -29,6 +36,7 @@ class App extends Component {
                         <h2>Welcome to Fancy Numeric Text Box</h2>
                     </div>
                     <NumericTextBox/>
+                    <Limiter/>
                 </div>
             </Provider>
         );

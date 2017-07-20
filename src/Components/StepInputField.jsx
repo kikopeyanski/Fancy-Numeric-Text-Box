@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class StepInputField extends Component {
     handleStepInputChange = (e) => {
-        this.props.onStepChange(parseInt(e.target.value, 10));
+        this.props.onStepChange(e.target.value * 1);
     };
 
     render() {

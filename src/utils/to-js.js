@@ -1,5 +1,5 @@
-import React from 'react'
-import {Iterable} from 'immutable'
+import React from 'react';
+import {Iterable} from 'immutable';
 
 export const toJS = WrappedComponent => wrappedComponentProps => {
     const KEY = 0;
@@ -13,8 +13,8 @@ export const toJS = WrappedComponent => wrappedComponentProps => {
         )
             ? wrappedComponentProp[VALUE].toJS()
             : wrappedComponentProp[VALUE];
-        return newProps
+        return newProps;
     }, {});
 
-    return <WrappedComponent {...propsJS} />
+    return <WrappedComponent {...propsJS} />;
 };
