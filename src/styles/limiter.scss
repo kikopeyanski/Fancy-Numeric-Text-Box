@@ -1,0 +1,58 @@
+.limiter-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(100%, 0);
+  background-color: white;
+  //box-shadow: 21px 2px 46px 7px rgba(0,0,0,0.49);
+  box-shadow: 0px 0px 47px 9px rgba(0, 0, 0, 0.38);
+  button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 5px;
+    &:active {
+      border: none;
+
+    }
+  }
+
+  .limiter-input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  input {
+    align-self: center;
+  }
+}
+
+.input-component {
+  flex-basis: 100%;
+  height: 89px;
+  align-self: center;
+  display: flex;
+  font-weight: 300;
+
+  & + & {
+    border-top: 1px solid lightgray;
+  }
+
+  label {
+    text-align: right;
+  }
+  input {
+    text-align: left;
+    border: none;
+  }
+  label, input {
+    color: #656565;
+    font-size: 48px;
+    width: 50%;
+    align-self: center;
+  }
+}
+

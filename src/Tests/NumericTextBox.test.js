@@ -25,7 +25,11 @@ function setup() {
         result: 42,
         onStepChange: jest.fn(),
         decreaseResult: jest.fn(),
-        increaseResult: jest.fn()
+        increaseResult: jest.fn(),
+        limiter: {
+            min: 1,
+            max: 49
+        }
     };
     const wrapper = mount(<NumericTextBox {...props}/>);
 

@@ -6,7 +6,11 @@ import StepInput from '../Containers/StepInput';
 function setup() {
     const props = {
         step: 42,
-        onStepChange: jest.fn(params => params)
+        onStepChange: jest.fn(params => params),
+        limiter: {
+            min:0,
+            max: 49
+        }
     };
 
     const wrapper = mount(<StepInput {...props}/>);
@@ -29,7 +33,7 @@ describe('StepInput container', () => {
             .exists())
             .toBe(true);
         expect(wrapper
-            .find('h1')
+            .find('span')
             .html())
             .toContain(props.step);
         expect(typeof stepInputFieldProps.onStepChange).toEqual('function');

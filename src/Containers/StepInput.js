@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import StepInputField from '../Components/StepInputField';
@@ -14,7 +15,9 @@ class StepInput extends Component {
     render() {
         return (
             <div className="step-input-wrapper">
-                <h1>{this.props.step}</h1>
+                <div className="step-counter">
+                    <span>step : {this.props.step}</span>
+                </div>
                 <StepInputField step={this.props.step} onStepChange={this.handleStepChange}/>
             </div>
         );
@@ -27,7 +30,7 @@ StepInput.propTypes = {
     limiter: PropTypes.shape({
         min: PropTypes.number,
         max: PropTypes.number
-    }).isRequired,
+    }),
 };
 
 export default StepInput;

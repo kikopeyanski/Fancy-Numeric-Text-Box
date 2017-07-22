@@ -1,0 +1,26 @@
+.step-input-wrapper {
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.step-counter {
+  font-weight: 300;
+  flex-basis: 100%;
+  font-size: 96px;
+  margin: 5%;
+  color: dimgray;
+  max-height: 423px; }
+
+.numeric-text-box {
+  width: 100%;
+  text-align: center;
+  border: 1px solid lightgray;
+  border-left: none;
+  border-right: none; }
+  .numeric-text-box input {
+    max-width: 98%;
+    font-size: 48px;
+    text-align: center;
+    border: none;
+    height: 98%;
+    color: #757575; }

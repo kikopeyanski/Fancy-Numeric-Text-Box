@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class StepIncrease extends Component {
     render() {
         return (
-            <div className="step-increase-button">
+            <div className="step-change-button" id="btn-increase">
                 <button onClick={this.props.stepIncrease}>+</button>
             </div>
         );

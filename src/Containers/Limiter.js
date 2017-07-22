@@ -13,37 +13,49 @@ export class Limiter extends Component {
     handleChangeMax = (e) => {
         this.props.changeMax(e.target.value);
     };
-    handleToggle = ()=>{
-        this.props.changeLimiterActive(!this.props.active)
-    }
+    handleToggle = () => {
+        this.props.changeLimiterActive(!this.props.active);
+    };
 
     render() {
         if (this.props.active) {
             return (
                 <div className="limiter-wrapper">
-                    <label htmlFor="min">
-                        Min:
-                        <input
-                            type="number"
-                            name="min"
-                            onChange={this.handleChangeMin}
-                            placeholder={this.props.min}
-                        />
-                    </label>
-                    <label htmlFor="min">
-                        Max:
-                        <input
-                            type="number"
-                            name="max"
-                            onChange={this.handleChangeMax}
-                            placeholder={this.props.max}
-                        />
-                    </label>
-                    <button onClick={this.handleToggle}>Close LIMITER</button>
+                    <button onClick={this.handleToggle}>X</button>
+                    <div className="limiter-input-wrapper">
+                        <div className="input-component">
+                            <label htmlFor="min">
+                                MIN:
+
+                            </label>
+                            <input
+                                type="number"
+                                name="min"
+                                onChange={this.handleChangeMin}
+                                placeholder={this.props.min}
+                            />
+                        </div>
+                        <div className="input-component">
+
+                            <label htmlFor="min">
+                                MAX:
+
+                            </label>
+                            <input
+                                type="number"
+                                name="max"
+                                onChange={this.handleChangeMax}
+                                placeholder={this.props.max}
+                            />
+                        </div>
+                    </div>
                 </div>
             );
         }
-        return (<button onClick={this.handleToggle}>OPEN LIMITER</button>);
+        return (
+            <div className="limiter-wrapper">
+                <button onClick={this.handleToggle}>LIMITER</button>
+            </div>);
     }
 }
 

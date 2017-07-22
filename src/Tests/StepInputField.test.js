@@ -28,10 +28,6 @@ describe('StepInputField component', () => {
             .find('div')
             .hasClass('numeric-text-box'))
             .toBe(true);
-        expect(wrapper
-            .find('label')
-            .html())
-            .toContain('step');
         expect(wrapper.find('input')
             .exists())
             .toBe(true);

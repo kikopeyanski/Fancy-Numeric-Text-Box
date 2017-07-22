@@ -1,0 +1,33 @@
+.step-change-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  background-color: #e6e6e6; }
+
+.step-change-button {
+  flex-basis: auto;
+  flex-grow: 5;
+  height: 64px; }
+  .step-change-button button {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid transparent;
+    font-size: 48px;
+    color: #757575; }
+
+#btn-decrease {
+  border: 1px solid orangered;
+  border-right: 1px solid gray; }
+
+#btn-increase {
+  border: 1px solid #85ec40; }
+
+.result-final {
+  width: 100%;
+  height: auto;
+  flex-basis: 100%;
+  align-self: flex-start; }
+  .result-final span {
+    font-size: 128px;
+    color: #757575; }

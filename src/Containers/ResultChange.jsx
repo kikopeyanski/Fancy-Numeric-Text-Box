@@ -16,7 +16,9 @@ class ResultChange extends Component {
             <div className="step-change-wrapper">
                 <ResultDecrease stepDecrease={this.handleResultDecrease}/>
                 <ResultIncrease stepIncrease={this.handleResultIncrease}/>
-                <h1>RESULT: {this.props.result}</h1>
+                <div className="result-final">
+                    <span>{this.props.result}</span>
+                </div>
             </div>
         );
     }

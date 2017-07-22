@@ -9,15 +9,11 @@ class StepInputField extends Component {
     render() {
         return (
             <div className="numeric-text-box">
-                <label htmlFor="step">
-                    Enter the step value
-                    <input
-                        onChange={this.handleStepInputChange}
-                        type="number"
-                        value={this.props.step ? this.props.step : 1}
-                        placeholder="any number"
-                    />
-                </label>
+                <input
+                    onChange={this.handleStepInputChange}
+                    type="number"
+                    placeholder="0"
+                />
             </div>);
     }
 }

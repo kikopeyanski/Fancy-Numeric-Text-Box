@@ -6,6 +6,7 @@ import StepInput from './StepInput';
 import ResultChange from './ResultChange';
 import {changeStep, decrease, increase} from '../actions';
 import {toJS} from '../utils/to-js';
+import Limiter from '../Containers/Limiter';
 
 export class NumericTextBox extends Component {
     render() {
@@ -22,6 +23,7 @@ export class NumericTextBox extends Component {
                     decreaseResult={this.props.decreaseResult}
                     increaseResult={this.props.increaseResult}
                 />
+                <Limiter/>
             </div>
         );
     }
