@@ -7,6 +7,13 @@ import reducers from './reducers';
 import {Provider} from 'react-redux';
 import {fromJS} from 'immutable';
 import Navigation from './Components/Navigation';
+import HomePage from './Components/HomePage';
+import BuildWithPage from './Components/BuildWithPage';
+
+import {
+    BrowserRouter as Router,
+    Route
+} from 'react-router-dom';
 
 const initialState = {
     step: 1,
@@ -30,10 +37,14 @@ class App extends Component {
     render() {
         return (
             <Provider store={store}>
-                <div className="App">
-                    <Navigation/>
-                    <NumericTextBox/>
-                </div>
+                <Router>
+                    <div className="root-wrapper">
+                        <Navigation/>
+                        <Route exact path="/" component={HomePage}/>
+                        <Route path="/app" component={NumericTextBox}/>
+                        <Route path="/tech" component={BuildWithPage}/>
+                    </div>
+                </Router>
             </Provider>
         );
     }

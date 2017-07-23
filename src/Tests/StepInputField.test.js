@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import {mount} from 'enzyme';
 import StepInputField from '../Components/StepInputField';
@@ -47,7 +48,6 @@ describe('StepInputField component', () => {
 
         //Assert
         expect(spy).toHaveBeenCalled();
-
     });
     test('should call parent onStepChange when input is changed', () => {
         //Arrange
@@ -59,5 +59,5 @@ describe('StepInputField component', () => {
 
         //Assert
         expect(props.onStepChange).toHaveBeenCalled();
-    })
+    });
 });

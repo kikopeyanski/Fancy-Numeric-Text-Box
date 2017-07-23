@@ -1,0 +1,81 @@
+.main {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+h1 {
+  font-size: 82px;
+  color: #797979;
+  span {
+    font-style: italic;
+    color: #85ec40;
+    text-shadow: 2px 2px #797979;
+  }
+
+}
+
+.buttons-links-wrapper {
+  display: flex;
+
+  button {
+    width: 300px;
+    height: 75px;
+  }
+}
+
+
+.source-code {
+  background-color: white;
+  border: 1px solid darkgray;
+  margin-right: 90px;
+
+  &:hover {
+    background-color: orangered;
+    a {
+      color: white;
+    }
+  }
+
+  &:active {
+    border: none;
+  }
+  a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 400;
+    color: orangered;
+  }
+}
+
+.technologies {
+  background-color: white;
+  border: 1px solid darkgray;
+
+  &:hover {
+    background-color: #31aae4;
+    a {
+      color: white;
+    }
+  }
+  &:active {
+    border: none;
+  }
+  a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 400;
+    color: #31aae4;
+  }
+}
+
+.arrow-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+
+.app-bg, .app-button{
+  position: absolute;
+  bottom:0;
+  right: 0;
+}

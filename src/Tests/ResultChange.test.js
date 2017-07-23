@@ -22,21 +22,13 @@ function setup() {
 describe('ResultChange container should', () => {
     test('render ResultDecrease and ResultIncrease components in a div wrapper', () => {
         //Arrange
-        const {wrapper} = setup();
+        const {wrapper,props} = setup();
 
         //Act & Assert
         expect(wrapper
             .find('div.step-change-wrapper')
             .exists())
             .toBe(true);
-        expect(wrapper
-            .find('h1')
-            .exists())
-            .toBe(true);
-        expect(wrapper
-            .find('h1')
-            .html())
-            .toContain('RESULT');
     });
 });
 describe('ResultChange container should', () => {
@@ -56,7 +48,7 @@ describe('ResultChange container should', () => {
 
         //Act & Assert
         expect(wrapper
-            .find('h1')
+            .find('div.result-final')
             .html())
             .toContain(props.result);
     });

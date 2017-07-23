@@ -1,6 +1,6 @@
-import {mount} from 'enzyme'
-import  React from "react";
-import ResultIncrease from "../Components/ResultIncrease";
+import {mount} from 'enzyme';
+import  React from 'react';
+import ResultIncrease from '../Components/ResultIncrease';
 
 //Initial setup of enzyme wrapper
 function setup() {
@@ -14,8 +14,7 @@ function setup() {
     return {
         props,
         wrapper
-    }
-
+    };
 }
 describe('ResultIncrease component', () => {
     test('should render a button', () => {
@@ -25,7 +24,7 @@ describe('ResultIncrease component', () => {
         //Act & Assert
         expect(wrapper
             .find('div')
-            .hasClass('step-increase-button'))
+            .hasClass('step-change-button'))
             .toBe(true);
         expect(wrapper
             .find('button')
@@ -42,5 +41,5 @@ describe('ResultIncrease component', () => {
 
         //Assert
         expect(props.stepIncrease).toHaveBeenCalled();
-    })
+    });
 });

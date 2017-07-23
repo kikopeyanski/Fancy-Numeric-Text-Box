@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="JavaScriptTestRunnerJest" name="Limiter component should.call handleChangeMax function when change is detected" />
+    </enabled-run-configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2c0970ed-8f34-4962-b96d-292359872aca" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Navigation.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/limiter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/result-change.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/step-input.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/BuildWithPage.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/HomePage.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tests/Limiter.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/build-with-page.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/home-page.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/ResultDecrease.jsx" afterPath="$PROJECT_DIR$/src/Components/ResultDecrease.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/ResultIncrease.jsx" afterPath="$PROJECT_DIR$/src/Components/ResultIncrease.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/StepInputField.jsx" afterPath="$PROJECT_DIR$/src/Components/StepInputField.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.scss" afterPath="$PROJECT_DIR$/src/App.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Navigation.jsx" afterPath="$PROJECT_DIR$/src/Components/Navigation.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Containers/Limiter.js" afterPath="$PROJECT_DIR$/src/Containers/Limiter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Containers/NumericTextBox.js" afterPath="$PROJECT_DIR$/src/Containers/NumericTextBox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Containers/ResultChange.jsx" afterPath="$PROJECT_DIR$/src/Containers/ResultChange.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Containers/StepInput.js" afterPath="$PROJECT_DIR$/src/Containers/StepInput.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/NumericTextBox.test.js" afterPath="$PROJECT_DIR$/src/Tests/NumericTextBox.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/StepInput.test.js" afterPath="$PROJECT_DIR$/src/Tests/StepInput.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/ResultChange.test.js" afterPath="$PROJECT_DIR$/src/Tests/ResultChange.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/ResultDecrease.test.js" afterPath="$PROJECT_DIR$/src/Tests/ResultDecrease.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/ResultIncrease.test.js" afterPath="$PROJECT_DIR$/src/Tests/ResultIncrease.test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/StepInputField.test.js" afterPath="$PROJECT_DIR$/src/Tests/StepInputField.test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/action.test.js" afterPath="$PROJECT_DIR$/src/Tests/action.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.css" afterPath="$PROJECT_DIR$/src/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/main.scss" afterPath="$PROJECT_DIR$/src/styles/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/navigation.css" afterPath="$PROJECT_DIR$/src/styles/navigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/navigation.scss" afterPath="$PROJECT_DIR$/src/styles/navigation.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,39 +43,17 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.53768206">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="NumericTextBox.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Containers/NumericTextBox.js">
+        <leaf>
+          <file leaf-file-name="Limiter.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Tests/Limiter.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="24" />
+                <state relative-caret-position="136">
+                  <caret line="103" column="7" lean-forward="true" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="7" />
                   <folding>
-                    <element signature="e#49#88#0" expanded="true" />
+                    <element signature="n#!!doc" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#32#71#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="App.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -79,8 +61,8 @@
           <file leaf-file-name="Limiter.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Containers/Limiter.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+                <state relative-caret-position="-606">
+                  <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#49#88#0" expanded="true" />
@@ -89,49 +71,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="StepInputField.jsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Components/StepInputField.jsx">
+          <file leaf-file-name="StepInput.test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Tests/StepInput.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ResultChange.jsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Containers/ResultChange.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+                <state relative-caret-position="224">
+                  <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ResultDecrease.jsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Components/ResultDecrease.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-                  <folding>
-                    <marker date="1500715021935" expanded="true" signature="114:439" ph="{...}" />
-                    <marker date="1500715021935" expanded="true" signature="129:439" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#0#48#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -139,43 +84,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="limiter.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/styles/limiter.scss">
+        <leaf>
+          <file leaf-file-name="Limiter.test.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Tests/Limiter.test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="step-input.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/styles/step-input.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="result-change.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/styles/result-change.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-                  <folding />
+                <state relative-caret-position="635">
+                  <caret line="178" column="68" lean-forward="false" selection-start-line="178" selection-start-column="68" selection-end-line="178" selection-end-column="68" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -202,23 +119,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Components/StepIncrement.jsx" />
         <option value="$PROJECT_DIR$/src/reducers/step-change-reducer.js" />
         <option value="$PROJECT_DIR$/src/reducers/numeric-text-box-reducer.js" />
         <option value="$PROJECT_DIR$/src/Containers/StepChange.jsx" />
         <option value="$PROJECT_DIR$/src/Components/StepIncrease.jsx" />
         <option value="$PROJECT_DIR$/src/Components/StepDecrease.jsx" />
         <option value="$PROJECT_DIR$/src/Tests/actionTests.js" />
-        <option value="$PROJECT_DIR$/src/Tests/action.test.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/src/Tests/components.test.js" />
-        <option value="$PROJECT_DIR$/src/Tests/ResultIncrease.test.js" />
-        <option value="$PROJECT_DIR$/src/Tests/ResultDecrease.test.js" />
         <option value="$PROJECT_DIR$/src/App.test.js" />
         <option value="$PROJECT_DIR$/.eslintrc" />
         <option value="$PROJECT_DIR$/src/Tests/ResultChange.js" />
         <option value="$PROJECT_DIR$/src/Tests/reducers.test.js" />
-        <option value="$PROJECT_DIR$/src/Tests/ResultChange.test.js" />
         <option value="$PROJECT_DIR$/src/Tests/NumericTextBox.tests.js" />
         <option value="$PROJECT_DIR$/src/utils/to-js.js" />
         <option value="$PROJECT_DIR$/src/Tests/to-js.test.js" />
@@ -231,24 +143,33 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/Navigation.jsx" />
-        <option value="$PROJECT_DIR$/src/styles/navigation.scss" />
         <option value="$PROJECT_DIR$/src/Containers/NumericTextBox.js" />
         <option value="$PROJECT_DIR$/src/Containers/StepInput.js" />
         <option value="$PROJECT_DIR$/src/Tests/StepInput.test.js" />
-        <option value="$PROJECT_DIR$/src/Tests/StepInputField.test.js" />
-        <option value="$PROJECT_DIR$/src/Tests/NumericTextBox.test.js" />
         <option value="$PROJECT_DIR$/src/Components/ResultIncrease.jsx" />
         <option value="$PROJECT_DIR$/src/Containers/ResultChange.jsx" />
         <option value="$PROJECT_DIR$/src/Components/ResultDecrease.jsx" />
         <option value="$PROJECT_DIR$/src/styles/result-change.scss" />
         <option value="$PROJECT_DIR$/src/Components/StepInputField.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/App.scss" />
-        <option value="$PROJECT_DIR$/src/Containers/Limiter.js" />
         <option value="$PROJECT_DIR$/src/styles/limiter.scss" />
         <option value="$PROJECT_DIR$/src/styles/step-input.scss" />
         <option value="$PROJECT_DIR$/src/styles/main.scss" />
+        <option value="$PROJECT_DIR$/src/styles/home-page.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/Components/BuildWithPage.jsx" />
+        <option value="$PROJECT_DIR$/src/App.scss" />
+        <option value="$PROJECT_DIR$/src/styles/navigation.scss" />
+        <option value="$PROJECT_DIR$/src/styles/build-with-page.scss" />
+        <option value="$PROJECT_DIR$/src/Components/HomePage.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/Navigation.jsx" />
+        <option value="$PROJECT_DIR$/src/Tests/ResultDecrease.test.js" />
+        <option value="$PROJECT_DIR$/src/Tests/ResultChange.test.js" />
+        <option value="$PROJECT_DIR$/src/Tests/NumericTextBox.test.js" />
+        <option value="$PROJECT_DIR$/src/Tests/ResultIncrease.test.js" />
+        <option value="$PROJECT_DIR$/src/Tests/action.test.js" />
+        <option value="$PROJECT_DIR$/src/Tests/StepInputField.test.js" />
+        <option value="$PROJECT_DIR$/src/Containers/Limiter.js" />
+        <option value="$PROJECT_DIR$/src/Tests/Limiter.test.js" />
       </list>
     </option>
   </component>
@@ -320,6 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -360,6 +282,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FancyNumericTextBox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FancyNumericTextBox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -378,7 +318,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="reducers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,7 +382,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -473,62 +412,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.StepInput container">
-    <configuration default="false" name="NumericTextBox container should.mapDispatchToProps should return object with the same functions as those in props" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/Tests/NumericTextBox.test.js" />
-      <test-names>
-        <test-name value="NumericTextBox container should" />
-        <test-name value="mapDispatchToProps should return object with the same functions as those in props" />
-      </test-names>
-      <method />
-    </configuration>
-    <configuration default="false" name="NumericTextBox container should.Should map initialState to props correctly" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/Tests/NumericTextBox.test.js" />
-      <test-names>
-        <test-name value="NumericTextBox container should" />
-        <test-name value="Should map initialState to props correctly" />
-      </test-names>
-      <method />
-    </configuration>
-    <configuration default="false" name="toJS utility should " type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Limiter component should.handleToggle should call parent function changeLimiterActive with correct props">
+    <configuration default="false" name="Limiter component should" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/Tests/to-js.test.js" />
+      <test-file value="$PROJECT_DIR$/src/Tests/Limiter.test.js" />
       <test-names>
-        <test-name value="toJS utility should " />
+        <test-name value="Limiter component should" />
       </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="toJS utility should .return object with correct props" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Limiter component should.call handleToggle function when change is detected" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/Tests/to-js.test.js" />
+      <test-file value="$PROJECT_DIR$/src/Tests/Limiter.test.js" />
       <test-names>
-        <test-name value="toJS utility should " />
-        <test-name value="return object with correct props" />
+        <test-name value="Limiter component should" />
+        <test-name value="call handleToggle function when change is detected" />
       </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="StepInput container" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Limiter component should.handleChangeMin should call parent function changeMin with correct props" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/Tests/StepInput.test.js" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Tests/Limiter.test.js" />
       <test-names>
-        <test-name value="StepInput container" />
+        <test-name value="Limiter component should" />
+        <test-name value="handleChangeMin should call parent function changeMin with correct props" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="Limiter component should.handleChangeMax should call parent function changeMax with correct props" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Tests/Limiter.test.js" />
+      <test-names>
+        <test-name value="Limiter component should" />
+        <test-name value="handleChangeMax should call parent function changeMax with correct props" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="Limiter component should.handleToggle should call parent function changeLimiterActive with correct props" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Tests/Limiter.test.js" />
+      <test-names>
+        <test-name value="Limiter component should" />
+        <test-name value="handleToggle should call parent function changeLimiterActive with correct props" />
       </test-names>
       <method />
     </configuration>
@@ -599,19 +539,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Jest.NumericTextBox container should.mapDispatchToProps should return object with the same functions as those in props" />
-      <item index="1" class="java.lang.String" itemvalue="Jest.NumericTextBox container should.Should map initialState to props correctly" />
-      <item index="2" class="java.lang.String" itemvalue="Jest.toJS utility should " />
-      <item index="3" class="java.lang.String" itemvalue="Jest.toJS utility should .return object with correct props" />
-      <item index="4" class="java.lang.String" itemvalue="Jest.StepInput container" />
+      <item index="0" class="java.lang.String" itemvalue="Jest.Limiter component should" />
+      <item index="1" class="java.lang.String" itemvalue="Jest.Limiter component should.call handleToggle function when change is detected" />
+      <item index="2" class="java.lang.String" itemvalue="Jest.Limiter component should.handleChangeMin should call parent function changeMin with correct props" />
+      <item index="3" class="java.lang.String" itemvalue="Jest.Limiter component should.handleChangeMax should call parent function changeMax with correct props" />
+      <item index="4" class="java.lang.String" itemvalue="Jest.Limiter component should.handleToggle should call parent function changeLimiterActive with correct props" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Jest.StepInput container" />
-        <item index="1" class="java.lang.String" itemvalue="Jest.toJS utility should " />
-        <item index="2" class="java.lang.String" itemvalue="Jest.toJS utility should .return object with correct props" />
-        <item index="3" class="java.lang.String" itemvalue="Jest.NumericTextBox container should.mapDispatchToProps should return object with the same functions as those in props" />
-        <item index="4" class="java.lang.String" itemvalue="Jest.NumericTextBox container should.Should map initialState to props correctly" />
+        <item index="0" class="java.lang.String" itemvalue="Jest.Limiter component should.handleToggle should call parent function changeLimiterActive with correct props" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.Limiter component should.handleChangeMax should call parent function changeMax with correct props" />
+        <item index="2" class="java.lang.String" itemvalue="Jest.Limiter component should.handleChangeMin should call parent function changeMin with correct props" />
+        <item index="3" class="java.lang.String" itemvalue="Jest.Limiter component should.call handleToggle function when change is detected" />
+        <item index="4" class="java.lang.String" itemvalue="Jest.Limiter component should" />
       </list>
     </recent_temporary>
   </component>
@@ -632,57 +572,60 @@
       <workItem from="1500449470787" duration="26069000" />
       <workItem from="1500486163448" duration="3832000" />
       <workItem from="1500546542716" duration="1343000" />
-      <workItem from="1500620098453" duration="19644000" />
+      <workItem from="1500620098453" duration="19751000" />
+      <workItem from="1500727892943" duration="5652000" />
+      <workItem from="1500796270176" duration="258000" />
+      <workItem from="1500801384542" duration="3723000" />
+      <workItem from="1500822716590" duration="633000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StepInput_container - 2017.07.21 at 10h 10m 18s.xml">
-      <configuration name="StepInput container" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Limiter_component_should - 2017.07.23 at 18h 12m 31s.xml">
+      <configuration name="Limiter component should" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="StepInput_container - 2017.07.22 at 11h 25m 22s.xml">
-      <configuration name="StepInput container" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Limiter_component_should_call_handleToggle_function_when_change_is_detected - 2017.07.23 at 18h 12m 53s.xml">
+      <configuration name="Limiter component should.call handleToggle function when change is detected" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="toJS_utility_should_ - 2017.07.19 at 18h 44m 22s.xml">
-      <configuration name="toJS utility should " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Limiter_component_should_handleChangeMax_should_call_parent_function_changeMax_with_correct_props - 2017.07.23 at 18h 19m 50s.xml">
+      <configuration name="Limiter component should.handleChangeMax should call parent function changeMax with correct props" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="toJS_utility_should_ - 2017.07.19 at 18h 45m 48s.xml">
-      <configuration name="toJS utility should " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Limiter_component_should_handleChangeMin_should_call_parent_function_changeMin_with_correct_props - 2017.07.23 at 18h 17m 08s.xml">
+      <configuration name="Limiter component should.handleChangeMin should call parent function changeMin with correct props" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="toJS_utility_should_ - 2017.07.19 at 18h 46m 27s.xml">
-      <configuration name="toJS utility should " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Limiter_component_should_handleChangeMin_should_call_parent_function_changeMin_with_correct_props - 2017.07.23 at 18h 18m 12s.xml">
+      <configuration name="Limiter component should.handleChangeMin should call parent function changeMin with correct props" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="toJS_utility_should_ - 2017.07.19 at 18h 47m 00s.xml">
-      <configuration name="toJS utility should " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Limiter_component_should_handleChangeMin_should_call_parent_function_changeMin_with_correct_props - 2017.07.23 at 18h 18m 39s.xml">
+      <configuration name="Limiter component should.handleChangeMin should call parent function changeMin with correct props" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="toJS_utility_should_ - 2017.07.19 at 18h 48m 14s.xml">
-      <configuration name="toJS utility should " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Limiter_component_should_handleToggle_should_call_parent_function_changeLimiterActive_with_correct_props - 2017.07.23 at 18h 22m 04s.xml">
+      <configuration name="Limiter component should.handleToggle should call parent function changeLimiterActive with correct props" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="toJS_utility_should_ - 2017.07.19 at 18h 49m 02s.xml">
-      <configuration name="toJS utility should " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Limiter_component_should_handleToggle_should_call_parent_function_changeLimiterActive_with_correct_props - 2017.07.23 at 18h 22m 24s.xml">
+      <configuration name="Limiter component should.handleToggle should call parent function changeLimiterActive with correct props" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="toJS_utility_should_ - 2017.07.19 at 18h 51m 10s.xml">
-      <configuration name="toJS utility should " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Limiter_container_should_mapStatToProps_should_return_correct_props - 2017.07.23 at 17h 43m 43s.xml">
+      <configuration name="Limiter container should.mapStatToProps should return correct props" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="toJS_utility_should_ - 2017.07.19 at 18h 52m 07s.xml">
-      <configuration name="toJS utility should " configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="Limiter_container_should_mapStatToProps_should_return_correct_props - 2017.07.23 at 17h 45m 35s.xml">
+      <configuration name="Limiter container should.mapStatToProps should return correct props" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75543000" />
+    <option name="totallyTimeSpent" value="85916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13065049" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13285556" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21775083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="404" y="589" width="1836" height="317" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21775083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="404" y="589" width="1836" height="317" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -692,6 +635,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -723,7 +667,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -740,47 +684,10 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Components/StepInputField.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/StepInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,10 +702,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#32#71#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -807,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#49#88#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,26 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/ResultDecrease.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/ResultIncrease.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-511">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,19 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-221">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#71#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/ResultChange.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="72" column="53" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,10 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-            <element signature="e#107#140#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,24 +765,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/global.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/global.sass" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -930,25 +783,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -968,6 +809,179 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/StepInputField.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/StepInput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ResultDecrease.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/StepInputField.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/limiter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/build-with-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="52" />
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/home-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/HomePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ResultIncrease.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/ResultChange.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/ResultChange.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Navigation.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/BuildWithPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/result-change.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/step-input.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/ResultIncrease.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/ResultDecrease.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/NumericTextBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/NumericTextBox.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="113" column="29" lean-forward="false" selection-start-line="113" selection-start-column="29" selection-end-line="113" selection-end-column="29" />
+          <folding>
+            <element signature="e#43#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/StepInput.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -976,137 +990,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/StepInputField.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/NumericTextBox.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Navigation.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/StepInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ResultIncrease.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ResultDecrease.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding>
-            <marker date="1500715021935" expanded="true" signature="114:439" ph="{...}" />
-            <marker date="1500715021935" expanded="true" signature="129:439" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/StepInputField.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/ResultChange.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/NumericTextBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="e#49#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="e#32#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/result-change.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/Limiter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="-606">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#49#88#0" expanded="true" />
@@ -1114,27 +1001,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/step-input.scss">
+    <entry file="file://$PROJECT_DIR$/src/Tests/Limiter.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/limiter.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="635">
+          <caret line="178" column="68" lean-forward="false" selection-start-line="178" selection-start-column="68" selection-end-line="178" selection-end-column="68" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
-import {CHANGE_STEP, DECREASE, INCREASE}from '../actions';
-import {changeStep, increase, decrease}from '../actions';
+import {CHANGE_STEP, DECREASE, INCREASE} from '../actions';
+import {changeStep, increase, decrease} from '../actions';
 
 //Tests for changeStep() action creator
 describe('action changeStep()', () => {
@@ -9,14 +9,14 @@ describe('action changeStep()', () => {
     });
     test('should return an action of type CHANGE_STEP', () => {
         //Arrange & Act & Assert
-        expect(changeStep(42).type).toEqual(CHANGE_STEP)
+        expect(changeStep(42).type).toEqual(CHANGE_STEP);
     });
     test('should return an action with step provided as parameter', () => {
         //Arrange
         const expectedNumber = 42;
         //Act & Assert
         expect(changeStep(expectedNumber).step).toEqual(expectedNumber);
-    })
+    });
 });
 
 //Tests for increase() action creator
@@ -27,7 +27,7 @@ describe('action increase', () => {
     });
     test('should return an action of type INCREASE', () => {
         //Arrange & Act & Assert
-        expect(increase(42).type).toEqual(INCREASE)
+        expect(increase(42).type).toEqual(INCREASE);
     });
     test('should return an action with step provided as parameter', () => {
         //Arrange
@@ -46,13 +46,12 @@ describe('action decrease', () => {
     });
     test('should return an action of type DECREASE', () => {
         //Arrange & Act & Assert
-        expect(decrease(42).type).toEqual(DECREASE)
+        expect(decrease(42).type).toEqual(DECREASE);
     });
     test('should return an action with step provided as parameter', () => {
         //Arrange
         const expectedNumber = 42;
         //Act & Assert
         expect(decrease(expectedNumber).step).toEqual(expectedNumber);
-    })
-
+    });
 });

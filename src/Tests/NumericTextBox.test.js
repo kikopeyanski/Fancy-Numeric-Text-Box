@@ -97,16 +97,6 @@ describe('NumericTextBox component should', () => {
             .exists())
             .toBe(true);
     });
-    test('have the same params as passed by parent', () => {
-        //Arrange
-        const {wrapper, props} = setup();
-
-        //Act
-        const wrapperProps = wrapper.props();
-
-        //Assert
-        expect(wrapperProps).toEqual(props);
-    });
 });
 describe('NumericTextBox container should', () => {
     test('Should map initialState to props correctly', () => {

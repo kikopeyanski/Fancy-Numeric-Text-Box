@@ -12,7 +12,9 @@ class Navigation extends Component {
                     </div>
                     <div className="github-wrapper">
                         <button className="github-button">
-                            <img src={githubLogo} alt="github"/>
+                            <a href="https://github.com/kikopeyanski">
+                                <img src={githubLogo} alt="github"/>
+                            </a>
                         </button>
                     </div>
                 </div>

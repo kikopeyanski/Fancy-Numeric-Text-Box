@@ -14,8 +14,7 @@ function setup() {
     return {
         props,
         wrapper
-    }
-
+    };
 }
 describe('ResultDecrease component', () => {
     test('should render a button', () => {
@@ -25,7 +24,7 @@ describe('ResultDecrease component', () => {
         //Act & Assert
         expect(wrapper
             .find('div')
-            .hasClass('step-decrease-button'))
+            .hasClass('step-change-button'))
             .toBe(true);
         expect(wrapper
             .find('button')
@@ -42,5 +41,5 @@ describe('ResultDecrease component', () => {
 
         //Assert
         expect(props.stepDecrease).toHaveBeenCalled();
-    })
+    });
 });

@@ -21,7 +21,7 @@ export class Limiter extends Component {
         if (this.props.active) {
             return (
                 <div className="limiter-wrapper">
-                    <button onClick={this.handleToggle}>X</button>
+                    <button id="btn-toggle" onClick={this.handleToggle}>X</button>
                     <div className="limiter-input-wrapper">
                         <div className="input-component">
                             <label htmlFor="min">
@@ -54,7 +54,7 @@ export class Limiter extends Component {
         }
         return (
             <div className="limiter-wrapper">
-                <button onClick={this.handleToggle}>LIMITER</button>
+                <button id="btn-toggle" onClick={this.handleToggle}>LIMITER</button>
             </div>);
     }
 }
