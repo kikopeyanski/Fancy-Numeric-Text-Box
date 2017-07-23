@@ -1,11 +1,3 @@
-@import 'styles/main.scss';
-@import 'styles/navigation.scss';
-@import 'styles/step-input.scss';
-@import 'styles/result-change.scss';
-@import 'styles/limiter.scss';
-@import 'styles/home-page.scss';
-@import 'styles/build-with-page.scss';
-
 .App {
   text-align: center;
   flex-basis: 100%;
@@ -37,7 +29,6 @@ body {
   margin: 0;
   height: 100%;
   background: white url('./img/bg.png');
-
 }
 
 #root {
@@ -52,3 +43,11 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@import 'styles/navigation.scss';
+@import 'styles/step-input.scss';
+@import 'styles/result-change.scss';
+@import 'styles/limiter.scss';
+@import 'styles/home-page.scss';
+@import 'styles/build-with-page.scss';
+@import 'styles/main.scss';

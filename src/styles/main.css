@@ -17,3 +17,15 @@
 textarea, input {
   outline: none;
   -webkit-appearance: none; }
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background: white none; }
+  .main {
+    margin: 0;
+    width: 100%; }
+  .wrapper {
+    width: 100%;
+    display: block;
+    box-shadow: none;
+    height: auto; } }

@@ -1,7 +1,17 @@
 .build-with-wrapper {
   text-align: center;
   img {
-    box-shadow: 0px 44px 70px -3px rgba(0,0,0,0.53);
+    box-shadow: 0px 44px 70px -3px rgba(0, 0, 0, 0.53);
   }
 
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .build-with-wrapper {
+    img {
+      width: 100%;
+      box-shadow: none;
+      height: auto;
+    }
+  }
 }

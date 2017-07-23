@@ -39,3 +39,10 @@
     font-size: 48px;
     width: 50%;
     align-self: center; }
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .limiter-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    right: 100%; } }

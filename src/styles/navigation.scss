@@ -57,4 +57,14 @@
   flex-basis: 50%;
 }
 
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .nav {
+    flex-basis: 100%;
+  }
+  .signature-wrapper {
+    span {
+      font-size: 15px;
+    }
+  }
+}
 

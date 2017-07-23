@@ -11,11 +11,28 @@
   height: 500px;
   box-shadow: 0px 0px 47px 9px rgba(0, 0, 0, 0.38);
 }
-.root-wrapper{
+
+.root-wrapper {
   height: 100%;
 }
 
 textarea, input {
   outline: none;
   -webkit-appearance: none
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background: white none;
+  }
+  .main {
+    margin: 0;
+    width: 100%
+  }
+  .wrapper {
+    width: 100%;
+    display: block;
+    box-shadow: none;
+    height: auto;
+  }
 }

@@ -1,22 +1,38 @@
-.wrapper {
+.App {
   text-align: center;
-  width: 50%;
-  border: 0px solid transparent;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: white;
-  max-width: 470px;
-  height: 500px;
-  box-shadow: 0px 0px 47px 9px rgba(0, 0, 0, 0.38); }
+  flex-basis: 100%; }
 
-.root-wrapper {
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-intro {
+  font-size: large; }
+
+html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  height: 100%;
+  background: white url("./img/bg.png"); }
+
+#root {
   height: 100%; }
 
-textarea, input {
-  outline: none;
-  -webkit-appearance: none; }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 
 .nav-wrapper {
   background-color: #e5e5e5;
@@ -63,6 +79,12 @@ textarea, input {
 
 .github-wrapper {
   flex-basis: 50%; }
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .nav {
+    flex-basis: 100%; }
+  .signature-wrapper span {
+    font-size: 15px; } }
 
 .step-input-wrapper {
   height: 50%;
@@ -167,6 +189,13 @@ textarea, input {
     width: 50%;
     align-self: center; }
 
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .limiter-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    right: 100%; } }
+
 .main {
   margin-left: 20%;
   margin-top: 5%; }
@@ -226,43 +255,71 @@ h1 {
   bottom: 0;
   right: 0; }
 
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  h1 {
+    margin: 20px;
+    font-size: 32px; }
+  .app-bg, .app-button, .arrow-wrapper {
+    width: 50%; }
+    .app-bg img, .app-button img, .arrow-wrapper img {
+      width: 100%; }
+  .app-bg, .app-button {
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+  .arrow-wrapper {
+    position: absolute;
+    left: 5%;
+    bottom: 5%; }
+    .arrow-wrapper img {
+      position: relative;
+      top: 40%; }
+  .buttons-links-wrapper {
+    padding: 5%; }
+    .buttons-links-wrapper a {
+      font-size: 16px; }
+    .buttons-links-wrapper .source-code {
+      margin-right: 5%; } }
+
 .build-with-wrapper {
   text-align: center; }
   .build-with-wrapper img {
     box-shadow: 0px 44px 70px -3px rgba(0, 0, 0, 0.53); }
 
-.App {
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .build-with-wrapper img {
+    width: 100%;
+    box-shadow: none;
+    height: auto; } }
+
+.wrapper {
   text-align: center;
-  flex-basis: 100%; }
+  width: 50%;
+  border: 0px solid transparent;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  max-width: 470px;
+  height: 500px;
+  box-shadow: 0px 0px 47px 9px rgba(0, 0, 0, 0.38); }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white; }
-
-.App-intro {
-  font-size: large; }
-
-html {
-  height: 100%;
-  width: 100%; }
-
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  height: 100%;
-  background: white url("./img/bg.png"); }
-
-#root {
+.root-wrapper {
   height: 100%; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
+textarea, input {
+  outline: none;
+  -webkit-appearance: none; }
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background: white none; }
+  .main {
+    margin: 0;
+    width: 100%; }
+  .wrapper {
+    width: 100%;
+    display: block;
+    box-shadow: none;
+    height: auto; } }

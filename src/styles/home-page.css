@@ -56,3 +56,29 @@ h1 {
   position: absolute;
   bottom: 0;
   right: 0; }
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  h1 {
+    margin: 20px;
+    font-size: 32px; }
+  .app-bg, .app-button, .arrow-wrapper {
+    width: 50%; }
+    .app-bg img, .app-button img, .arrow-wrapper img {
+      width: 100%; }
+  .app-bg, .app-button {
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+  .arrow-wrapper {
+    position: absolute;
+    left: 5%;
+    bottom: 5%; }
+    .arrow-wrapper img {
+      position: relative;
+      top: 40%; }
+  .buttons-links-wrapper {
+    padding: 5%; }
+    .buttons-links-wrapper a {
+      font-size: 16px; }
+    .buttons-links-wrapper .source-code {
+      margin-right: 5%; } }
